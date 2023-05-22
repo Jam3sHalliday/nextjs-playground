@@ -2,11 +2,15 @@
 
 ## Learning nextjs and take note!
 
-### Table of contents
 
-- <a href="#csrssr">CSR and SSR</a>
+### Table of Contents
+
+| No. | Topics                                                                                                                                                                                                                        |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [CSR and SSR](csrssr)                                                                                                                                                                                                 |
+<!-- ### Table of contents
 - React server component
-- /app routing
+- /app routing -->
 
 <h2 id="#csrssr">
     Client-side rendering and Server-side rendering
