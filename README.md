@@ -8,8 +8,9 @@
 - React server component
 - /app routing
 
-<div id="#csrssr"></div>
-## Client-side rendering and Server-side rendering
+<h2 id="#csrssr">
+    Client-side rendering and Server-side rendering
+</h2>
 Because in the new update, React server component becomes something kinda powerful and represents everywhere so I believed that it is important to understand those concepts
 
 <table style="width: 100vw">
