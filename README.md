@@ -7,14 +7,8 @@
 
 | No. | Topics                                                                                                                                                                                                                        |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [CSR and SSR](#csrssr)                                                                                                                                                                                                 |
-<!-- ### Table of contents
-- React server component
-- /app routing -->
-
-<h2 id="#csrssr">
-    Client-side rendering and Server-side rendering
-</h2>
+| 1   | [CSR and SSR](#client-side-rendering-and-server-side-rendering)                                                                                                                                                                                                 |
+### Client-side rendering and Server-side rendering
 Because in the new update, React server component becomes something kinda powerful and represents everywhere so I believed that it is important to understand those concepts
 
 <table style="width: 100vw">
