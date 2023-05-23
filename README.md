@@ -6,6 +6,7 @@
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1   | [CSR and SSR](#client-side-rendering-and-server-side-rendering)
 | 2   | [CRP - Critical rendering path](#critical-rendering-path)
+| 3   | [React Server Component](#react-server-component)
 <br />
 ## Client-side rendering and Server-side rendering
 <table>
@@ -216,3 +217,20 @@
     <li>Optimizing the number of requests required and file size of each request</li>
     <li>Prioritizing the downloading of critical assets, thereby shortening the critical path length</li>
 </ul>
+
+## React Server Component
+
+### What is it?
+React server component is a component type that retrieves data from the server and renders it content in server-side
+By default, every file created in /app folder will be server component
+
+### Why use it
+<ul>
+    <li>Fast first page load</li>
+    <li>Reduce javascript bundle size</li>
+    <li>The base client-side runtime is cacheable and predictable</li>
+</ul>
+
+### RSC vs. SSR
+SSR is an approach to rendering apps on server-side, response HTML to the client and browser renders it.
+RSC pages are rendered in an unique format (not HTML) and stream to the client
